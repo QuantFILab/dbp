@@ -6,7 +6,7 @@ type: landing
 design:
   spacing: "6rem"
 
-- section
+sections:
 - block: hero
   content:
     title: '<span class="text-4xl md:text-6xl font-semibold tracking-wide text-gold-400">โครงการหมูหลุม</span>'
