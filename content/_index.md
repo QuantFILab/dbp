@@ -7,13 +7,13 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      username: admin
+      title: "โครงการหมูหลุม"
+      subtitle: "การเลี้ยงหมูแนวใหม่เพื่อความยั่งยืน ไม่พึ่งพาสารเคมี"
       text: |
-        โครงการ “เทคโนโลยีการเลี้ยงหมูหลุม” มุ่งเน้นการพัฒนาระบบการเลี้ยงหมูที่ยั่งยืน  
-        ด้วยการใช้เทคโนโลยีและองค์ความรู้ที่เป็นมิตรต่อสิ่งแวดล้อม  
-        เพิ่มประสิทธิภาพการผลิตและลดต้นทุนของเกษตรกรไทย
+        โครงการนี้มุ่งเน้นการยกระดับการเลี้ยงหมูโดยใช้เทคโนโลยีและธรรมชาติ  
+        ลดต้นทุน เพิ่มผลผลิต และเป็นมิตรต่อสิ่งแวดล้อม
       button:
         text: ดาวน์โหลดเอกสารโครงการ
         url: uploads/moo-tech-project.pdf
@@ -22,13 +22,12 @@ sections:
       background:
         color: black
         image:
-          filename: pig-tech-bg.svg
+          filename: pigfarm-bg.png
           filters:
-            brightness: 0.5  # darkens background for better white text contrast
+            brightness: 0.5
           size: cover
           position: center
           parallax: false
-
 
   - block: markdown
     content:
