@@ -51,7 +51,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
 
   - block: collection
     id: talks
@@ -62,7 +62,7 @@ sections:
           - event
     design:
       view: article-grid
-      columns: 1
+      columns: 3
 
   - block: collection
     id: news
