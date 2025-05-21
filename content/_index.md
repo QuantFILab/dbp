@@ -18,6 +18,7 @@ sections:
         text: ดาวน์โหลดเอกสารโครงการ
         url: uploads/moo-tech-project.pdf
     design:
+      css_class: "text-white text-center px-6 py-20"
       min_height: "60vh"
       background:
         color: black
