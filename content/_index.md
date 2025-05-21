@@ -1,51 +1,50 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2025-05-21
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      text: |
+        โครงการ “เทคโนโลยีการเลี้ยงหมูหลุม” มุ่งเน้นการพัฒนาระบบการเลี้ยงหมูอย่างยั่งยืน  
+        โดยการใช้เทคโนโลยี IoT การจัดการกลิ่น การหมักเศษวัสดุธรรมชาติ  
+        เพื่อลดต้นทุน เพิ่มผลผลิต และยกระดับคุณภาพชีวิตของเกษตรกรไทย
       button:
-        text: Download CV
-        url: uploads/resume.pdf
+        text: ดาวน์โหลดเอกสารโครงการ
+        url: uploads/moo-tech-project.pdf
     design:
       css_class: dark
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: pig-tech-bg.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🐷 เกี่ยวกับโครงการหมูหลุม'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        โครงการนี้พัฒนาเพื่อตอบโจทย์ปัญหาการเลี้ยงหมูในชุมชน โดยเน้นการเลี้ยงหมูที่ประหยัดต้นทุน  
+        ลดกลิ่นเหม็น ไม่ก่อมลพิษ และสามารถบริหารจัดการเองได้โดยเกษตรกรรายย่อย  
         
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+        - **ระยะเวลาดำเนินการ:** มกราคม 2568 – ธันวาคม 2570  
+        - **พื้นที่นำร่อง:** จังหวัดลำพูน เชียงใหม่ และนครปฐม  
+        - **ผู้รับผิดชอบ:** ดร.ภาสิน มารุปานทร
+
   - block: collection
-    id: papers
+    id: publications
     content:
-      title: Featured Publications
+      title: งานวิจัยที่เกี่ยวข้อง
       filters:
         folders:
           - publication
@@ -53,37 +52,37 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     content:
-      title: Recent Publications
+      title: บทความล่าสุด
       text: ""
       filters:
         folders:
-          - publication
+          - post
         exclude_featured: false
     design:
-      view: citation
+      view: date-title-summary
+
   - block: collection
-    id: talks
+    id: events
     content:
-      title: Recent & Upcoming Talks
+      title: กิจกรรมภาคสนาม
       filters:
         folders:
           - event
     design:
       view: article-grid
       columns: 1
+
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: ข่าวสารจากโครงการ
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
       count: 5
-      # Filter on criteria
       filters:
         author: ""
         category: ""
@@ -92,34 +91,27 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ""
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: date-title-summary
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false
     content:
-      title: 👉 Build your own academic website like this
+      title: 📞 ติดต่อสอบถามเพิ่มเติม
       text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+        ศูนย์พัฒนาเทคโนโลยีการเกษตรอัจฉริยะ  
+        คณะเกษตรศาสตร์ มหาวิทยาลัยเทคโนโลยีแห่งประเทศไทย  
+        โทร: 02-123-4567  
+        อีเมล: info@smartagri.ac.th
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: เยี่ยมชมเว็บไซต์หลัก
+        url: https://yourdomain.com/project/tech-moo/
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
 ---
