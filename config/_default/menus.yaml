@@ -7,7 +7,7 @@ main:
   - name: หน้าแรก
     url: /
     weight: 10
-  - name: งานวิจัยตีพิมพ์
+  - name: งานวิจัย
     url: /#papers
     weight: 11
   - name: การอบรมณ์
