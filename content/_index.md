@@ -9,7 +9,7 @@ design:
 sections:
   - block: hero
     content:
-      title: "โครงการหมูหลุม"
+      title: "การเพิ่มประสิทธิภาพจัดการการเลี้ยงหมูหลุม"
       subtitle: "การเลี้ยงหมูแนวใหม่เพื่อความยั่งยืน ไม่พึ่งพาสารเคมี"
       text: |
         โครงการนี้มุ่งเน้นการยกระดับการเลี้ยงหมูโดยใช้เทคโนโลยีและธรรมชาติ  
@@ -17,7 +17,7 @@ sections:
     design:
       min_height: "60vh"
       background:
-        color: black
+        color: white
         image:
           filename: pig-tech-bg.svg
           filters:
