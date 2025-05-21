@@ -42,7 +42,7 @@ sections:
         - **ผู้รับผิดชอบ:** ดร.ภาสิน มารุปานทร
 
   - block: collection
-    id: งานวิจัย
+    id: papers
     content:
       title: งานวิจัยที่เกี่ยวข้อง
       filters:
@@ -54,7 +54,7 @@ sections:
       columns: 2
 
   - block: collection
-    id: การอบรมณ์
+    id: talk
     content:
       title: กิจกรรมภาคสนาม
       filters:
@@ -65,7 +65,7 @@ sections:
       columns: 1
 
   - block: collection
-    id: ข่าวสาร
+    id: news
     content:
       title: ข่าวสารจากโครงการ
       subtitle: ''
