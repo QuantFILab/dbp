@@ -9,23 +9,24 @@ design:
 sections:
   - block: hero
     content:
-      title: "โครงการหมูหลุม"
-      subtitle: "การเลี้ยงหมูแนวใหม่เพื่อความยั่งยืน ไม่พึ่งพาสารเคมี"
+      title: '<span class="text-4xl md:text-6xl font-semibold tracking-wide text-gold-400">โครงการหมูหลุม</span>'
+      subtitle: '<span class="text-xl md:text-2xl font-light text-white/80 mt-4 block">การเลี้ยงหมูแนวใหม่เพื่อความยั่งยืน ไม่พึ่งพาสารเคมี</span>'
       text: |
-        โครงการนี้มุ่งเน้นการยกระดับการเลี้ยงหมูโดยใช้เทคโนโลยีและธรรมชาติ  
+        <div class="max-w-2xl mx-auto mt-6 text-lg md:text-xl text-white/90 leading-relaxed">
+        โครงการนี้มุ่งเน้นการยกระดับการเลี้ยงหมูโดยใช้เทคโนโลยีและธรรมชาติ<br>
         ลดต้นทุน เพิ่มผลผลิต และเป็นมิตรต่อสิ่งแวดล้อม
+        </div>
       button:
-        text: ดาวน์โหลดเอกสารโครงการ
+        text: 📄 ดาวน์โหลดเอกสารโครงการ
         url: uploads/moo-tech-project.pdf
     design:
-      css_class: "dark rounded-xl shadow-xl backdrop-blur-md px-6 py-12 text-white text-center"
+      css_class: "text-center px-6 py-20 md:py-32"
       background:
         color: black
         image:
           filename: pig-tech-bg.svg
           filters:
-            brightness: 0.6  # Slightly darker to make text pop
-            opacity: 0.95    # Allow soft transparency
+            brightness: 0.8
           size: cover
           position: center
           parallax: false
