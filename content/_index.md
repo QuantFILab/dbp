@@ -54,7 +54,7 @@ sections:
       columns: 2
 
   - block: collection
-    id: talk
+    id: talks
     content:
       title: กิจกรรมภาคสนาม
       filters:
