@@ -8,26 +8,27 @@ design:
 
 sections:
   - block: hero
-      content:
-        title: "โครงการหมูหลุม"
-        subtitle: "การเลี้ยงหมูแนวใหม่เพื่อความยั่งยืน ไม่พึ่งพาสารเคมี"
-        text: |
-          โครงการนี้มุ่งเน้นการยกระดับการเลี้ยงหมูโดยใช้เทคโนโลยีและธรรมชาติ  
-          ลดต้นทุน เพิ่มผลผลิต และเป็นมิตรต่อสิ่งแวดล้อม
-        button:
-          text: ดาวน์โหลดเอกสารโครงการ
-          url: uploads/moo-tech-project.pdf
-      design:
-        css_class: dark
-        background:
-          color: black
-          image:
-            filename: pig-tech-bg.svg
-            filters:
-              brightness: 0.8
-            size: cover
-            position: center
-            parallax: false
+    content:
+      title: "โครงการหมูหลุม"
+      subtitle: "การเลี้ยงหมูแนวใหม่เพื่อความยั่งยืน ไม่พึ่งพาสารเคมี"
+      text: |
+        โครงการนี้มุ่งเน้นการยกระดับการเลี้ยงหมูโดยใช้เทคโนโลยีและธรรมชาติ  
+        ลดต้นทุน เพิ่มผลผลิต และเป็นมิตรต่อสิ่งแวดล้อม
+      button:
+        text: ดาวน์โหลดเอกสารโครงการ
+        url: uploads/moo-tech-project.pdf
+    design:
+      css_class: dark text-center px-4 py-16
+      min_height: "60vh"  # ลดจากค่า default 100vh เหลือประมาณ 60% ของความสูงหน้าจอ
+      background:
+        color: black
+        image:
+          filename: pig-tech-bg.svg
+          filters:
+            brightness: 0.8
+          size: cover
+          position: center
+          parallax: false
 
 
   - block: markdown
