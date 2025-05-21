@@ -55,17 +55,6 @@ sections:
       columns: 2
 
   - block: collection
-    content:
-      title: บทความล่าสุด
-      text: ""
-      filters:
-        folders:
-          - post
-        exclude_featured: false
-    design:
-      view: date-title-summary
-
-  - block: collection
     id: events
     content:
       title: กิจกรรมภาคสนาม
