@@ -11,9 +11,9 @@ sections:
     content:
       username: admin
       text: |
-        โครงการ “เทคโนโลยีการเลี้ยงหมูหลุม” มุ่งเน้นการพัฒนาระบบการเลี้ยงหมูอย่างยั่งยืน  
-        โดยการใช้เทคโนโลยี IoT การจัดการกลิ่น การหมักเศษวัสดุธรรมชาติ  
-        เพื่อลดต้นทุน เพิ่มผลผลิต และยกระดับคุณภาพชีวิตของเกษตรกรไทย
+        โครงการ “เทคโนโลยีการเลี้ยงหมูหลุม” มุ่งเน้นการพัฒนาระบบการเลี้ยงหมูที่ยั่งยืน  
+        ด้วยการใช้เทคโนโลยีและองค์ความรู้ที่เป็นมิตรต่อสิ่งแวดล้อม  
+        เพิ่มประสิทธิภาพการผลิตและลดต้นทุนของเกษตรกรไทย
       button:
         text: ดาวน์โหลดเอกสารโครงการ
         url: uploads/moo-tech-project.pdf
@@ -22,9 +22,9 @@ sections:
       background:
         color: black
         image:
-          filename: pig-tech-bg.svg
+          filename: pigfarm-bg.png
           filters:
-            brightness: 2.0
+            brightness: 0.5  # darkens background for better white text contrast
           size: cover
           position: center
           parallax: false
