@@ -24,7 +24,7 @@ sections:
         image:
           filename: pig-tech-bg.svg
           filters:
-            brightness: 0.7
+            brightness: 0.8
           size: cover
           position: center
           parallax: false
