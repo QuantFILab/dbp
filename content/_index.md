@@ -22,7 +22,7 @@ sections:
       background:
         color: black
         image:
-          filename: pigfarm-bg.svg
+          filename: pig-tech-bg.svg
           filters:
             brightness: 0.5  # darkens background for better white text contrast
           size: cover
