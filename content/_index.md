@@ -25,7 +25,7 @@ sections:
         image:
           filename: pig-tech-bg.svg
           filters:
-            brightness: 0.8
+            brightness: 0.9
           size: cover
           position: center
           parallax: false
@@ -64,7 +64,7 @@ sections:
           - event
     design:
       view: article-grid
-      columns: 3
+      columns: 2
 
   - block: collection
     id: news
@@ -73,7 +73,7 @@ sections:
       subtitle: ''
       text: ''
       page_type: post
-      count: 5
+      count: 3
       filters:
         author: ""
         category: ""
